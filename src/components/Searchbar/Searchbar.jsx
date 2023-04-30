@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import toast, { Toaster } from 'react-hot-toast';
+import toast from 'react-hot-toast';
 import { BiSearch } from 'react-icons/bi';
 import css from './Searchbar.module.css';
 
