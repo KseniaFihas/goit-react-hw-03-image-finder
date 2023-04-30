@@ -33,12 +33,7 @@ export class Modal extends Component {
     return createPortal(<div onClick={this.handleClose} className={css.Overlay}>
       <div className={css.Modal}>{this.props.children}</div> 
     </div>, modalRoot)
-  //   return(
-  //           <div className = { css.Overlay } onClick = { this.handleClose } >
-  //         <div className={css.Modal}>
-  //           <img src={largeImageURL} alt='' />
-  //         </div>
-  //           </div>)
+
   }
   }
 
